@@ -8,7 +8,7 @@ function validate() {
 			text: 'Sesión iniciada correctamente',
 			icon: 'success',
 		}).then(() => {
-			window.location.href = 'https://www.google.com/';
+			window.location.href = '../../index.html';
 		});
 	} else {
 		swal({
